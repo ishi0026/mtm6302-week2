@@ -38,6 +38,31 @@ console.log(num)
 // num += 1
 // console.log(num) // ++ & += same thing
 
+
 console.log(num == "11")//== check data, === strictly check data type
 console.log(num > 90)
 console.log(num != 90)
+console.log(!(num != 90))// first ! erase the inside of ()
+
+console.log(num >= 7 && num != "12" && myScore[0] < 40 )
+console.log(num >= 7 || num != 12)
+
+console.log(num.toFixed(2))
+
+numA = "10"
+numB = 5
+numC = 6.9
+console.log(numA + numB)
+console.log(parseInt(numA) + numB)
+console.log(numA + numC)
+console.log(numA + parseInt(numC))
+console.log(numA + parseFloat(numC))
+console.log(numC.toPrecision(3))
+
+
+const pets = 2;
+const pet1Name = "Jack"
+const pet2Name = "Ron"
+console.log("I have " + pets + " dogs," + pet1Name +" & "+ pet2Name)
+console.log(`I have ${pets} dogs,${pet1Name} & ${pet2Name}`)
+
